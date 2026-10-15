@@ -1,5 +1,7 @@
 # uwarp-mcp
 
+[![sherotree/uwarp-mcp MCP server](https://glama.ai/mcp/servers/sherotree/uwarp-mcp/badges/score.svg)](https://glama.ai/mcp/servers/sherotree/uwarp-mcp)
+
 MCP server for [Uwarp](https://uwarp.design) — a directory of 500+ free browser UI tools.
 
 This package exposes **three local tools** you can use from Cursor or Claude Desktop. No paid API key is required. Most Uwarp listings are third-party embeds; this server does **not** scrape or wrap them. Contrast and palette math run entirely on-device; `search_tools` reads a bundled local catalog (`data/tools.json`).
@@ -11,6 +13,23 @@ This package exposes **three local tools** you can use from Cursor or Claude Des
 | `search_tools` | Search the local Uwarp tool catalog |
 
 Author / context: **Sherotree** · [https://uwarp.design](https://uwarp.design) · MIT
+
+---
+
+## Install via npx
+
+No clone needed. Add to your MCP client config (Cursor `mcp.json`, Claude Desktop, etc.):
+
+```json
+{
+  "mcpServers": {
+    "uwarp": {
+      "command": "npx",
+      "args": ["-y", "uwarp-mcp"]
+    }
+  }
+}
+```
 
 ---
 
@@ -67,14 +86,14 @@ Add to your Cursor MCP config (e.g. `~/.cursor/mcp.json` or project `.cursor/mcp
 }
 ```
 
-Example if the project lives at `/workspace/uwarp-mcp`:
+Example if the project lives at `~/code/uwarp-mcp` (use the absolute path):
 
 ```json
 {
   "mcpServers": {
     "uwarp": {
       "command": "node",
-      "args": ["/workspace/uwarp-mcp/dist/index.js"]
+      "args": ["/Users/you/code/uwarp-mcp/dist/index.js"]
     }
   }
 }
