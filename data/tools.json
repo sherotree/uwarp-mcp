@@ -1,0 +1,200 @@
+{
+  "tools": [
+    {
+      "name": "Contrast Checker",
+      "summary": "Check WCAG contrast ratio between foreground and background colors.",
+      "url": "https://uwarp.design/tools/contrast-checker",
+      "category": "color",
+      "tags": ["wcag", "accessibility", "a11y", "contrast"]
+    },
+    {
+      "name": "Color Palette Generator",
+      "summary": "Generate harmonious color palettes from a seed hex.",
+      "url": "https://uwarp.design/tools/palette-generator",
+      "category": "color",
+      "tags": ["palette", "harmony", "hsl", "hex"]
+    },
+    {
+      "name": "Hex to HSL Converter",
+      "summary": "Convert hex colors to HSL and back in the browser.",
+      "url": "https://uwarp.design/tools/hex-to-hsl",
+      "category": "color",
+      "tags": ["hex", "hsl", "converter"]
+    },
+    {
+      "name": "Gradient Maker",
+      "summary": "Build and preview CSS linear and radial gradients.",
+      "url": "https://uwarp.design/tools/gradient-maker",
+      "category": "color",
+      "tags": ["gradient", "css", "background"]
+    },
+    {
+      "name": "Color Blindness Simulator",
+      "summary": "Preview how your UI looks under common color-vision deficiencies.",
+      "url": "https://uwarp.design/tools/color-blindness",
+      "category": "color",
+      "tags": ["a11y", "deuteranopia", "protanopia"]
+    },
+    {
+      "name": "SVG Path Editor",
+      "summary": "Edit and visualize SVG path data with live preview.",
+      "url": "https://uwarp.design/tools/svg-path-editor",
+      "category": "svg-generators",
+      "tags": ["svg", "path", "vector"]
+    },
+    {
+      "name": "SVG Wave Generator",
+      "summary": "Generate smooth SVG wave dividers for hero sections.",
+      "url": "https://uwarp.design/tools/svg-wave",
+      "category": "svg-generators",
+      "tags": ["svg", "wave", "divider"]
+    },
+    {
+      "name": "Blob Shape Maker",
+      "summary": "Create organic blob shapes as SVG for backgrounds and illustrations.",
+      "url": "https://uwarp.design/tools/blob-maker",
+      "category": "svg-generators",
+      "tags": ["svg", "blob", "shape"]
+    },
+    {
+      "name": "Favicon Generator",
+      "summary": "Create multi-size favicons from an image or simple text mark.",
+      "url": "https://uwarp.design/tools/favicon-generator",
+      "category": "svg-generators",
+      "tags": ["favicon", "icon", "png", "ico"]
+    },
+    {
+      "name": "SVG to PNG",
+      "summary": "Rasterize SVG markup to PNG at custom resolutions.",
+      "url": "https://uwarp.design/tools/svg-to-png",
+      "category": "image-conversion",
+      "tags": ["svg", "png", "rasterize"]
+    },
+    {
+      "name": "WebP Converter",
+      "summary": "Convert images to WebP with quality and size controls.",
+      "url": "https://uwarp.design/tools/webp-converter",
+      "category": "image-conversion",
+      "tags": ["webp", "compress", "image"]
+    },
+    {
+      "name": "Image Resizer",
+      "summary": "Resize images to exact pixel dimensions in the browser.",
+      "url": "https://uwarp.design/tools/image-resizer",
+      "category": "image-conversion",
+      "tags": ["resize", "image", "dimensions"]
+    },
+    {
+      "name": "Base64 Image Encoder",
+      "summary": "Encode images as data URIs for inline CSS and HTML.",
+      "url": "https://uwarp.design/tools/base64-image",
+      "category": "image-conversion",
+      "tags": ["base64", "data-uri", "encode"]
+    },
+    {
+      "name": "CSS Box Shadow Generator",
+      "summary": "Design layered box-shadows with live CSS output.",
+      "url": "https://uwarp.design/tools/box-shadow",
+      "category": "css-generators",
+      "tags": ["css", "shadow", "box-shadow"]
+    },
+    {
+      "name": "CSS Flexbox Playground",
+      "summary": "Experiment with flexbox properties and copy the resulting CSS.",
+      "url": "https://uwarp.design/tools/flexbox-playground",
+      "category": "css-generators",
+      "tags": ["css", "flexbox", "layout"]
+    },
+    {
+      "name": "CSS Grid Generator",
+      "summary": "Visually define CSS grid templates and gap settings.",
+      "url": "https://uwarp.design/tools/css-grid",
+      "category": "css-generators",
+      "tags": ["css", "grid", "layout"]
+    },
+    {
+      "name": "Border Radius Preview",
+      "summary": "Tune individual corner radii and export border-radius CSS.",
+      "url": "https://uwarp.design/tools/border-radius",
+      "category": "css-generators",
+      "tags": ["css", "border-radius", "corners"]
+    },
+    {
+      "name": "Clamp Calculator",
+      "summary": "Generate fluid CSS clamp() values for responsive type and spacing.",
+      "url": "https://uwarp.design/tools/clamp-calculator",
+      "category": "css-generators",
+      "tags": ["css", "clamp", "fluid", "typography"]
+    },
+    {
+      "name": "Lorem Ipsum Generator",
+      "summary": "Generate placeholder Latin text for mockups and wireframes.",
+      "url": "https://uwarp.design/tools/lorem-ipsum",
+      "category": "text-content",
+      "tags": ["lorem", "placeholder", "copy"]
+    },
+    {
+      "name": "Meta Tag Preview",
+      "summary": "Preview Open Graph and Twitter Card meta tags for social shares.",
+      "url": "https://uwarp.design/tools/meta-tags",
+      "category": "seo",
+      "tags": ["og", "twitter", "meta", "seo"]
+    },
+    {
+      "name": "JSON Formatter",
+      "summary": "Pretty-print, minify, and validate JSON in the browser.",
+      "url": "https://uwarp.design/tools/json-formatter",
+      "category": "devtools",
+      "tags": ["json", "format", "validate"]
+    },
+    {
+      "name": "Regex Tester",
+      "summary": "Test regular expressions against sample text with match highlights.",
+      "url": "https://uwarp.design/tools/regex-tester",
+      "category": "devtools",
+      "tags": ["regex", "pattern", "match"]
+    },
+    {
+      "name": "UUID Generator",
+      "summary": "Generate UUID v4 identifiers for prototyping and APIs.",
+      "url": "https://uwarp.design/tools/uuid-generator",
+      "category": "devtools",
+      "tags": ["uuid", "id", "random"]
+    },
+    {
+      "name": "Password Strength Meter",
+      "summary": "Estimate password strength and suggest improvements.",
+      "url": "https://uwarp.design/tools/password-strength",
+      "category": "security",
+      "tags": ["password", "strength", "security"]
+    },
+    {
+      "name": "QR Code Generator",
+      "summary": "Create QR codes from URLs or text with size and error-correction options.",
+      "url": "https://uwarp.design/tools/qr-code",
+      "category": "generators",
+      "tags": ["qr", "barcode", "url"]
+    },
+    {
+      "name": "Aspect Ratio Calculator",
+      "summary": "Compute missing width or height for a given aspect ratio.",
+      "url": "https://uwarp.design/tools/aspect-ratio",
+      "category": "layout",
+      "tags": ["aspect-ratio", "dimensions", "video"]
+    },
+    {
+      "name": "Spacing Scale Builder",
+      "summary": "Build a consistent spacing scale for design systems.",
+      "url": "https://uwarp.design/tools/spacing-scale",
+      "category": "design-systems",
+      "tags": ["spacing", "tokens", "scale"]
+    },
+    {
+      "name": "Type Scale Generator",
+      "summary": "Generate modular typographic scales with rem/em output.",
+      "url": "https://uwarp.design/tools/type-scale",
+      "category": "design-systems",
+      "tags": ["typography", "type-scale", "modular"]
+    }
+  ]
+}
