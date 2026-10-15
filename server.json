@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.sherotree/uwarp-mcp",
+  "title": "Uwarp",
+  "description": "WCAG contrast checks, HSL palettes with :root CSS, and search of 500+ free Uwarp UI tools.",
+  "repository": {
+    "url": "https://github.com/sherotree/uwarp-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://uwarp.design",
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "uwarp-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
